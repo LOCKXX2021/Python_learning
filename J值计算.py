@@ -1,0 +1,11 @@
+import math
+a = eval(input())
+b = eval(input())
+c = eval(input())
+d = eval(input())
+a1 = eval(input())
+b1 = eval(input())
+c1 = eval(input())
+d1 = eval(input())
+J = math.sqrt( (a-c)**2 + (b-d)**2 + (a1-c1)**2 + (b1-d1)**2   )
+print(J)
